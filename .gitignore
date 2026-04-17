@@ -1,0 +1,28 @@
+# Віртуальне середовище
+venv/
+.venv/
+env/
+
+# Кеш Python
+__pycache__/
+*.pyc
+
+# Збірки PyInstaller
+build/
+dist/
+*.spec
+
+# Тимчасові аудіо та фото, які створює програма
+*.wav
+*.ogg
+snap.jpg
+screen.png
+alert_audio.wav
+
+# Великі бінарники
+ffmpeg.exe
+ffprobe.exe
+
+# СЕКРЕТНІ ФАЙЛИ ТА КЛЮЧІ (КРИТИЧНО)
+*config*.json
+.env
